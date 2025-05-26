@@ -26,6 +26,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     "rest_framework",
+    "usuario",
     "livraria",
     "rest_framework_simplejwt",
 ]
@@ -121,3 +122,4 @@ REST_FRAMEWORK = {
     ]
 }
 
+AUTH_USER_MODEL = "usuario.Usuario"
